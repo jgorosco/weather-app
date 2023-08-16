@@ -8,7 +8,37 @@
 </head>
 
 <body>
-
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Ingrese el nombre de la ciudad" spellcheck="false">
+            <button><img src="images/search.png" alt="searchimg"></button>
+        </div>
+        <div class="error">
+            <p>Ciudad no válida</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" alt="weatherimg" class="weather-icon">
+            <h1 class="temp">25°C</h1>
+            <h2 class="city">Quito</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="humidityimg">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humedad</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="windimg">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Viento</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<script type="module" src="weather.js"></script>
 
 </html>
